@@ -16,14 +16,13 @@ namespace UniversityQuizSystem.Forms
             currentUser = user;
             fileName = FileManager.GetQuizFileName(user.Subject, user.Year, user.Semester, user.SectionNumber);
 
-            // Load existing questions if file exists
             quiz = FileManager.LoadQuestions(fileName);
             RefreshQuestionList();
 
             lblInfo.Text = $"Lecturer: {user.Name}  |  Subject: {user.Subject}  |  Section {user.SectionNumber}";
         }
 
-        // Refresh the listbox to show all current questions
+    
         private void RefreshQuestionList()
         {
             lstQuestions.Items.Clear();
@@ -35,13 +34,12 @@ namespace UniversityQuizSystem.Forms
             lblCount.Text = $"Total Questions: {quiz.Count}";
         }
 
-        // Show/hide MCQ options panel based on selection
+       
         private void cmbType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            pnlMCQ.Visible = (cmbType.SelectedIndex == 0); // 0 = Multiple Choice
+            pnlMCQ.Visible = (cmbType.SelectedIndex == 0);
         }
 
-        // Add question button
         private void btnAdd_Click(object sender, EventArgs e)
         {
             string questionText = txtQuestion.Text.Trim();
@@ -53,7 +51,7 @@ namespace UniversityQuizSystem.Forms
 
             Question newQuestion;
 
-            if (cmbType.SelectedIndex == 0) // Multiple Choice
+            if (cmbType.SelectedIndex == 0) 
             {
                 string optA = txtOptA.Text.Trim();
                 string optB = txtOptB.Text.Trim();
@@ -76,7 +74,7 @@ namespace UniversityQuizSystem.Forms
                 };
                 newQuestion = new Question(questionText, options, answer);
             }
-            else // Essay
+            else 
             {
                 newQuestion = new Question(questionText);
             }
@@ -86,14 +84,12 @@ namespace UniversityQuizSystem.Forms
             ClearInputs();
         }
 
-        // Save all questions to file
         private void btnSave_Click(object sender, EventArgs e)
         {
             FileManager.SaveQuestions(quiz, fileName);
             MessageBox.Show($"Questions saved to:\n{fileName}", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        // Clear all input fields
         private void ClearInputs()
         {
             txtQuestion.Clear();
@@ -104,7 +100,7 @@ namespace UniversityQuizSystem.Forms
             cmbAnswer.SelectedIndex = -1;
         }
 
-        // Logout
+       
         private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Close();
