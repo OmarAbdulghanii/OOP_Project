@@ -17,7 +17,7 @@ namespace UniversityQuizSystem.Forms
 
         private void btnContinue_Click(object sender, EventArgs e)
         {
-            // Save selections to the user object
+
             currentUser.Year   = (StudyYear)cmbYear.SelectedIndex;
             currentUser.Semester = (Semester)cmbSemester.SelectedIndex;
             currentUser.Subject  = cmbSubject.SelectedItem.ToString();
@@ -25,7 +25,6 @@ namespace UniversityQuizSystem.Forms
             currentUser.SectionNumber = (int)nudSection.Value;
 
 
-            // Route to the correct form based on role
             if (currentUser.Role == UserRole.Lecturer)
             {
                 LecturerForm form = new LecturerForm(currentUser);
