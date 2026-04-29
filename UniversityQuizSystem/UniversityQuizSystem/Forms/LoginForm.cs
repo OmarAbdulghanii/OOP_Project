@@ -23,7 +23,7 @@ namespace UniversityQuizSystem.Forms
                 return;
             }
 
-            // Create the correct subclass based on selected role (Demonstrates Inheritance usage)
+          
             if (rbStudent.Checked)
                 LoggedInUser = new Student(name);
             else if (rbLecturer.Checked)
