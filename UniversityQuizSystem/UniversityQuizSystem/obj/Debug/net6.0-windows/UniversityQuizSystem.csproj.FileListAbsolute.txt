@@ -1,0 +1,40 @@
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.exe
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.deps.json
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.runtimeconfig.json
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.dll
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.pdb
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.AssemblyInfoInputs.cache
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.AssemblyInfo.cs
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.csproj.CoreCompileInputs.cache
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.dll
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\refint\UniversityQuizSystem.dll
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.pdb
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.genruntimeconfig.cache
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\ref\UniversityQuizSystem.dll
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.LoginForm.resources
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.ResultForm.resources
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.SelectionForm.resources
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.csproj.GenerateResource.cache
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.LecturerForm.resources
+C:\Users\Omar Taman\Downloads\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.StudentForm.resources
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.exe
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.deps.json
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.runtimeconfig.json
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.dll
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\bin\Debug\net6.0-windows\UniversityQuizSystem.pdb
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.LecturerForm.resources
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.LoginForm.resources
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.ResultForm.resources
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.SelectionForm.resources
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.Forms.StudentForm.resources
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.csproj.GenerateResource.cache
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.AssemblyInfoInputs.cache
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.AssemblyInfo.cs
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.csproj.CoreCompileInputs.cache
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.dll
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\refint\UniversityQuizSystem.dll
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.pdb
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\UniversityQuizSystem.genruntimeconfig.cache
+D:\Study\second year s2\OOP\Project\Project\UniversityQuizSystem\UniversityQuizSystem\obj\Debug\net6.0-windows\ref\UniversityQuizSystem.dll

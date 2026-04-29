@@ -1,0 +1,1 @@
+MCQ|Which of the following is a type of database?|A. Html Database~B. Relational Daatabase~C. CPU Database~D. Screen Database|B
