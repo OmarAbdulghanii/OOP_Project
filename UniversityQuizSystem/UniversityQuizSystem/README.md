@@ -79,20 +79,6 @@ Ahmed Ali - OOP - Score: 8/10
 
 ---
 
-## ▶️ How to Run
-
-### Requirements
-- Visual Studio 2022 (or VS Code with C# extension)
-- .NET 6.0 SDK or later (Windows)
-
-### Steps
-1. Open Visual Studio
-2. Open the folder `UniversityQuizSystem/`
-3. Double-click `UniversityQuizSystem.csproj`
-4. Press **F5** to build and run
-
----
-
 ## 🖥️ Application Flow
 
 ```
@@ -117,9 +103,3 @@ Ahmed Ali - OOP - Score: 8/10
          Saves to results.txt
 ```
 
----
-
-## 📌 Notes for Your Submission
-- The system links lecturer questions to students via a shared filename key (Subject + Year + Semester + Section).
-- Essay questions are displayed but not auto-graded.
-- Multiple Choice questions are auto-graded and counted in the final score.
