@@ -34,7 +34,6 @@ namespace UniversityQuizSystem.Forms
             LoadQuestion(0);
         }
 
-        // Load a specific question by index
         private void LoadQuestion(int index)
         {
             Question q = questions[index];
@@ -52,7 +51,7 @@ namespace UniversityQuizSystem.Forms
                 rbC.Text = q.Options.Length > 2 ? q.Options[2] : "C";
                 rbD.Text = q.Options.Length > 3 ? q.Options[3] : "D";
 
-                // Restore previous answer if navigating back
+                
                 rbA.Checked = (studentAnswers[index] == "A");
                 rbB.Checked = (studentAnswers[index] == "B");
                 rbC.Checked = (studentAnswers[index] == "C");
@@ -70,7 +69,7 @@ namespace UniversityQuizSystem.Forms
             btnSubmit.Enabled = (index == questions.Count - 1);
         }
 
-        // Save the current answer before navigating
+   
         private void SaveCurrentAnswer()
         {
             Question q = questions[currentIndex];
@@ -102,7 +101,7 @@ namespace UniversityQuizSystem.Forms
             LoadQuestion(currentIndex);
         }
 
-        // Submit quiz and calculate score
+        
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             SaveCurrentAnswer();
@@ -110,7 +109,7 @@ namespace UniversityQuizSystem.Forms
             int score = 0;
             int mcqTotal = 0;
 
-            // Calculate score (only MCQ questions are auto-graded)
+
             for (int i = 0; i < questions.Count; i++)
             {
                 if (questions[i].Type == QuestionType.MultipleChoice)
@@ -124,10 +123,9 @@ namespace UniversityQuizSystem.Forms
             student.Score = score;
             student.TotalQuestions = mcqTotal > 0 ? mcqTotal : questions.Count;
 
-            // Save result to file (File Handling)
             FileManager.SaveResult(student.Name, student.Subject, score, student.TotalQuestions);
 
-            // Show result form
+           
             ResultForm result = new ResultForm(student);
             result.ShowDialog();
             this.Close();
