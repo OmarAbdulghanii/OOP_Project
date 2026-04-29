@@ -1,18 +1,17 @@
 namespace UniversityQuizSystem.Models
 {
-    // Question class (Demonstrates Classes and Array of Objects)
+
     public class Question
     {
         public string QuestionText { get; set; }
         public QuestionType Type { get; set; }
 
-        // For Multiple Choice: options A, B, C, D
+     
         public string[] Options { get; set; }
 
-        // Correct answer (for MCQ: "A", "B", "C", or "D")
         public string CorrectAnswer { get; set; }
 
-        // Constructor for Essay question
+
         public Question(string questionText)
         {
             QuestionText = questionText;
@@ -21,7 +20,7 @@ namespace UniversityQuizSystem.Models
             CorrectAnswer = "";
         }
 
-        // Constructor for Multiple Choice question
+
         public Question(string questionText, string[] options, string correctAnswer)
         {
             QuestionText = questionText;
@@ -30,14 +29,14 @@ namespace UniversityQuizSystem.Models
             CorrectAnswer = correctAnswer.ToUpper();
         }
 
-        // Check if a student's answer is correct (MCQ only)
+
         public bool CheckAnswer(string studentAnswer)
         {
             if (Type == QuestionType.Essay) return false;
             return studentAnswer.Trim().ToUpper() == CorrectAnswer;
         }
 
-        // Convert question to a saveable string format
+    
         public string ToFileString()
         {
             if (Type == QuestionType.Essay)
@@ -51,7 +50,7 @@ namespace UniversityQuizSystem.Models
             }
         }
 
-        // Create a Question object from a saved file line
+
         public static Question FromFileString(string line)
         {
             string[] parts = line.Split('|');
@@ -59,7 +58,7 @@ namespace UniversityQuizSystem.Models
             {
                 return new Question(parts[1]);
             }
-            else // MCQ
+            else 
             {
                 string[] options = parts[2].Split('~');
                 return new Question(parts[1], options, parts[3]);
