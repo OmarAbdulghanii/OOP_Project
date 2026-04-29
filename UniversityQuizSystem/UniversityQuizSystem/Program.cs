@@ -13,11 +13,10 @@ namespace UniversityQuizSystem
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Show Login Form first
+
             LoginForm loginForm = new LoginForm();
             if (loginForm.ShowDialog() == DialogResult.OK)
             {
-                // After login, show the selection form
                 SelectionForm selectionForm = new SelectionForm(loginForm.LoggedInUser);
                 Application.Run(selectionForm);
             }
